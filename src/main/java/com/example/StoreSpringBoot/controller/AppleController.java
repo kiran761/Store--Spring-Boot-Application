@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/apple")
+@RequestMapping("store/apple")
 public class AppleController {
     @Autowired
     AppleService appleService;
