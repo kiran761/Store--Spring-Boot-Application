@@ -50,4 +50,8 @@ public class BreadService {
         }
         return null;
     }
+
+    public List<Bread> getAllBread() {
+        return brepo.findAll();
+    }
 }

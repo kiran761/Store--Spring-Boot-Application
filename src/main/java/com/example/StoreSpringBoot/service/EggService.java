@@ -51,4 +51,8 @@ public class EggService {
         }
         return null;
     }
+
+    public List<Egg> getAllEggs() {
+        return erepo.findAll();
+    }
 }

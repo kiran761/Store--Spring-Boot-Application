@@ -52,4 +52,8 @@ public class ChocolateService {
         return null;
 
     }
+
+    public List<Chocolate> getAllChocolates() {
+        return crepo.findAll();
+    }
 }

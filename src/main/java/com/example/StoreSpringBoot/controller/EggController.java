@@ -39,4 +39,10 @@ public class EggController {
     public Egg deleteEgg(@PathVariable Long id) {
         return eggService.deleteEgg(id);
     }
+
+    @GetMapping("/getall")
+    public List<Egg> getAllEggs()
+    {
+        return eggService.getAllEggs();
+    }
 }

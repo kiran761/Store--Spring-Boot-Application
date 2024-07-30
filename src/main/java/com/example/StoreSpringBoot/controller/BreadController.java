@@ -39,4 +39,10 @@ public class BreadController
     public Bread deleteBread(@PathVariable Long id) {
         return breadService.deleteBread(id);
     }
+
+    @GetMapping("/getall")
+    public List<Bread> getAllBread()
+    {
+        return breadService.getAllBread();
+    }
 }

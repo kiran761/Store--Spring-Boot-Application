@@ -50,4 +50,8 @@ public class MilkService {
         }
         return null;
     }
+
+    public List<Milk> getAllMilk() {
+        return mrepo.findAll();
+    }
 }

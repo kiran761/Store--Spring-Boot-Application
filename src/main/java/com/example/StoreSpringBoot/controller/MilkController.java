@@ -36,4 +36,10 @@ public class MilkController {
     public Milk deleteMilk(@PathVariable Long id) {
         return milkService.deleteMilk(id);
     }
+
+    @GetMapping("/getAll")
+    public List<Milk> getAllMilk()
+    {
+        return milkService.getAllMilk();
+    }
 }

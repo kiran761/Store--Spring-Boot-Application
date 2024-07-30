@@ -40,4 +40,10 @@ public class ChocolateController {
     {
         return chocolateService.deleteChocolate(id);
     }
+
+    @GetMapping("/getall")
+    public List<Chocolate> getAllChocolates()
+    {
+        return chocolateService.getAllChocolates();
+    }
 }
