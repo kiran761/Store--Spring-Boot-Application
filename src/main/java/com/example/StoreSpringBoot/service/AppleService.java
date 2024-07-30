@@ -53,5 +53,8 @@ public class AppleService {
         return null;
     }
 
-   
+
+    public List<Apple> getAllApples() {
+        return arepo.findAll();
+    }
 }

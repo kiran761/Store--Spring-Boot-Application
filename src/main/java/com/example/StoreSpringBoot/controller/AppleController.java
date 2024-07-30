@@ -40,4 +40,10 @@ public class AppleController {
     public Apple deleteApple(@PathVariable Long id) {
         return appleService.deleteApple(id);
     }
+
+    @GetMapping("/getall")
+    public List<Apple> getAllApples()
+    {
+        return appleService.getAllApples();
+    }
 }
