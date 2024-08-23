@@ -19,5 +19,6 @@ public class Egg {
     private String eggName;
     private String eggDescription;
     private int eggPrice;
+    private String eggUrl;
 
 }

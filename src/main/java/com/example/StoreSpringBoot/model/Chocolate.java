@@ -19,4 +19,5 @@ public class Chocolate {
     private String chocolateName;
     private String chocolateDescription;
     private int chocolatePrice;
+    private String chocolateUrl;
 }

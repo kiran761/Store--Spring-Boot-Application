@@ -19,4 +19,5 @@ public class Bread {
     private String breadName;
     private int breadPrice;
     private String breadDescription;
+    private String breadUrl;
 }

@@ -19,4 +19,5 @@ public class Milk {
     private String milkName;
     private String milkDescription;
     private int milkPrice;
+    private String milkUrl;
 }

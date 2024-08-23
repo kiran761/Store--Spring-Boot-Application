@@ -20,4 +20,5 @@ public class Apple {
     private String appleName;
     private int applePrice;
     private String appleDescription;
+    private String appleUrl;
 }
